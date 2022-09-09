@@ -79,9 +79,11 @@ header .nav-link {
 header .nav-link:hover {
     color: black;
 }
-header .navbar-toggler:hover{
+
+header .navbar-toggler:hover {
     color: white;
 }
+
 header .row .col-md-5 {
     padding: 4.2vmin 1vmin;
 }
@@ -332,32 +334,43 @@ header .container .col-md-7 button {
 /* Footer  */
 
 footer {
-    background:  rgba(0, 0, 0, 0.815);
+    background: rgba(0, 0, 0, 0.815);
     overflow-x: hidden;
     padding: 14vmin 18vmin;
 }
 
-footer p>span{
+footer p>span {
     color: #ff512f;
 }
 
-footer input{
+footer input {
     border-color: black !important;
 }
 
-footer input::placeholder{
+footer input::placeholder {
     color: white !important;
 }
 
-footer .input-group .input-group-text{
+footer .input-group .input-group-text {
     background: var(--bggradient);
     border: none;
 }
 
-footer .column i{
+footer .column i {
     color: #dd2476;
 }
 
-footer .column i + i{
+footer .column i+i {
     padding: 0 0.5em;
+}
+
+/* Sticky Class */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
 }
